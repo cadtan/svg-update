@@ -65,12 +65,7 @@ header {
   height: 120px;
 }
 
-.logo-text {
-  color: #BA8058;
-  font-size: 1.5em;
-}
-
-.st1 {
+.logo .st1 {
   opacity: 0;
 }
 
@@ -97,14 +92,13 @@ a:hover {
   color: black;
 }
 
-/*---- Fix IE  ----*/
-li svg:first-child {
-  margin-right: 0;
-}
-
-li a svg {
+/*---- Fix IE SVG extra space ----*/
+li svg {
   width: 16px;
 }
+  li svg:first-child {
+    margin-right: 0;
+  }
 
 /*---- Main Section ----*/
 
@@ -186,9 +180,8 @@ footer {
   .logo-text  {
     display: none;
   }
-
-  .st1 {
-    opacity: 1;
-  }
-  
+    .logo .st1 {
+      opacity: 1;
+    }
+    
 }
