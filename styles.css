@@ -71,22 +71,24 @@ header {
 
 /* ---- Navigation ---- */
 
-#nav-heart,
-#nav-contact {
+.nav-heart,
+.nav-contact {
  height: 13px;
 }
 
-#nav-location {
+.nav-location {
   height: 14px;
 }
 
-#nav-heart .st0,
-#nav-location .st0,
-#nav-contact .st0  {
+.nav-heart .st0,
+.nav-location .st0,
+.nav-contact .st0  {
   fill: #39add1;
 }
 
-a:hover #nav-icon,
+a:hover #nav-heart-icon,
+a:hover #nav-contact-icon,
+a:hover #nav-location-icon,
 a:hover {
   fill: #000;
   color: black;
